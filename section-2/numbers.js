@@ -25,3 +25,12 @@ const title = `best reads of 2020`
 const author = `Dom`
 const bookLikes = 30
 console.log(`The ${title} by ${author} has ${bookLikes} likes.`)
+
+const html = `
+  <h2>${title}</h2>
+  <p>By: ${author}</p>
+  <p>Likes: ${bookLikes}</p>
+`
+
+let htmlResultContainer = document.createElement('div')
+document.body.appendChild(htmlResultContainer)
