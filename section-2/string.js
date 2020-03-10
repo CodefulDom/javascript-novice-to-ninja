@@ -18,9 +18,11 @@ console.log(getFullName)
 let split = fullName.split('')
 console.log(split)
 
+// UpperCase
 let upperCase = fullName.toUpperCase()
 console.log('%c%s', 'color: #00a3cc', `upperCase: ${upperCase}`)
 
+// replace the FIRST occurrence of searched value
 let replace = fullName.replace('D', 'J')
 console.log('%c%s', 'color: #aa00ff', `replace: ${replace}`)
 
