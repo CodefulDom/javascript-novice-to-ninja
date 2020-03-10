@@ -23,3 +23,6 @@ console.log('%c%s', 'color: #00a3cc', `upperCase: ${upperCase}`)
 
 let replace = fullName.replace('D', 'J')
 console.log('%c%s', 'color: #aa00ff', `replace: ${replace}`)
+
+let value = email.indexOf('@')
+console.log('%c%s', 'color: #e50000', `index of value: ${value}`)
