@@ -11,3 +11,14 @@ Multi
 Line
 Comment
 */
+
+/* 
+Data Types:
+Number: 1, 2, 3, 4
+String: `This is a string`
+Boolean: True/False 
+Null: Explicitly set with no value
+Undefined: variables that have not been defined
+Object: Complex data structures - Key Value Pairs
+Symbol - Used with Objects
+*/
