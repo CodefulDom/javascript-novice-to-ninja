@@ -32,5 +32,7 @@ const html = `
   <p>Likes: ${bookLikes}</p>
 `
 
+console.log(html)
+
 let htmlResultContainer = document.createElement('div')
 document.body.appendChild(htmlResultContainer)
