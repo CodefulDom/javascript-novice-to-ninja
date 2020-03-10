@@ -20,3 +20,8 @@ S - Subtraction
 
 let likes = 1
 console.log('%c%s', 'color: #d90000', `likes: ${(likes += 20)}`)
+
+const title = `best reads of 2020`
+const author = `Dom`
+const bookLikes = 30
+console.log(`The ${title} by ${author} has ${bookLikes} likes.`)
