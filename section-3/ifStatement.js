@@ -14,3 +14,10 @@ if (password.length <= 8 || password === 'pass') {
 } else {
   console.log(`logged in!`)
 }
+
+let isAdmin = null
+if (!isAdmin) {
+  console.log(`You are not an admin`)
+} else {
+  console.log(`Welcome, Admin!`)
+}
