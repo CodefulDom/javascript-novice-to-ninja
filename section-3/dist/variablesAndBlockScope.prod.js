@@ -1,0 +1,1 @@
+"use strict";var age=19,name="Elijah";if(7<age){var _age=40,_name="Dom";console.log(_age),console.log(_name)}console.log(age),console.log(name);var getName=function(e){console.log(e);return"Hey ".concat(e,"!")};getName(name);
