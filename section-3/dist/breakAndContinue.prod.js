@@ -1,0 +1,1 @@
+"use strict";var scores=[50,25,0,30,100];scores.forEach(function(o){100===o?console.log("High Score 🎆"):console.log("You do not have the high score try again")});for(var i=0;i<scores.length;i++)if(100===scores[i]){console.log("🎆 you have the high score");break}
