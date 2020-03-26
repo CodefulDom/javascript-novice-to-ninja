@@ -4,6 +4,13 @@ scores.forEach((score) => {
 })
 
 for (let i = 0; i < scores.length; i++) {
+  if (scores[i] === 0) {
+    console.log(`score: ${scores[i]}`)
+    continue
+  }
+
+  console.log(`Your score was: ${scores[i]}`)
+
   if (scores[i] === 100) {
     console.log(`🎆 you have the high score`)
     break
